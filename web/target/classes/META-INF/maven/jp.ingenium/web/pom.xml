@@ -20,6 +20,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.2.5.RELEASE</version>
     </parent>
+
   <!-- 追記 -->
 
   <dependencies>
@@ -28,6 +29,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
     <!-- 追記 -->
 
@@ -38,4 +47,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+
 </project>
